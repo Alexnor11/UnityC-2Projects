@@ -19,6 +19,7 @@ public class Spawner : MonoBehaviour
     [Header("Set in Inspector: Boids")]
     public float velosity = 30f;
     public float neighborDist = 30f;
+    public float collDist = 4f;
     public float velMatching = 0.25f;
     public float flockCentering = 0.2f;
     public float collAvoid = 2f;
